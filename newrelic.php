@@ -1,8 +1,5 @@
 <?php
 
-<<<<<<< Updated upstream
-placeholder
-=======
 ///////////////////////////
 //New Relic PHP Agent Configuration Test v1.0
 //
@@ -193,4 +190,3 @@ function daemon_connect($res_connectsuccess)
 
 
 ?>
->>>>>>> Stashed changes
