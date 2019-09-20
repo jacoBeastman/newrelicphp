@@ -142,6 +142,8 @@ function get_extension_build()
 			break;
 		case 7.2:
 			$ext_build="20170718" ;
+		case 7.3:
+			$ext_build="20180731" ;
 	}
 	
 	return $ext_build;	
