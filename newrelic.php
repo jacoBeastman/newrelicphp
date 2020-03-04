@@ -42,7 +42,7 @@ if (extension_loaded('newrelic'))
 	$appname = ini_get("newrelic.appname");
 	echo "<h3>New Relic PHP extension is loaded. <br> The reporting New Relic appname is <i> $appname</i>. <br><br>";
 	
-	$threadsafe = get_sapi();
+	$threadsafe = get_sapi($res_apachempm);
 
 	daemon_connect($res_connectsuccess);
 
